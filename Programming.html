@@ -8,9 +8,9 @@
 
 
 <!----------------------------------------------ТЕЛО САЙТА------------------------------------------------------------->
-<body background="img/" bgcolor="#4C5B86" style="box-shadow:  0px 0px 50px 0px #180940;">
+<body background="img/" bgcolor="#4C5B86" style="box-shadow:  0px 0px 50px 0px #180940;" >
 <!--Создаём таблицу контейнер, которой задаём следующее-->
-<table border="0" align="center" rules="rows" style="width:80%; height:100%">
+<table border="0" align="left" rules="rows" style="width:80%; height:100%;">
 <!--Создаём строку-->
 <tr>
 <!--Создаём ячейку строки-->
@@ -19,7 +19,7 @@
 
 <!-----------------------------------------------ШАПКА САЙТА---------------------------------------------------------->
 <!--В ячейке строки создаём ещё одну таблицу для шапки сайта.-->
-<table border="0" background="img/spot-light-background_1284-4685.jpg" style="width:100%; border-radius:30px; box-shadow: inset 0px 0px 50px 1px; opacity: 0.9">
+<table border="0" background="img/spot-light-background_1284-4685.jpg" style="width:100%; border-radius:15px; box-shadow: inset 0px 0px 50px 1px; opacity: 0.9">
 <!--Создаём строку таблицы-->
 <tr>
 <!--Создаём столбец таблицы-->
@@ -32,18 +32,38 @@
 </table>
 
 
+<!---------------------------------------------------МЕНЮ-------------------------------------------------------------#8BB6BC--#91A0C3>
+<!--1. Создаём ячейку сайдбара-->
+<table style="width: 99%; height:60px" align="center">
+<td bgcolor="#4C5B86" style="border-radius:15px; align:center; box-shadow: inset 0px 0px 20px 1px;">
+<!--Ссылка на ГЛАВНУЮ-index.html-->
+<a href="index.html" style="margin-left:3%; color:#9FEE00; font-size:17px;">Главная</a>
+<!--Ссылка на YouTube.com-->
+<a href="https://www.youtube.com/channel/UCo6OPt7xz15LfgF8HPUjh0Q/videos" target="_blank" style="margin-left:3%; color:#FF0000; font-size:17px;">YouTube</a>
+<!--Ссылка на ПРОГРАММИРОВАНИЕ - Programming-->
+<a href="Programming.html" style="margin-left:3%; color:#FF7400; font-size:17px;">Программирование</a>
+<!--Ссылка на Ежедневник - Diary-->
+<a href="Diary.html" style="margin-left:3%; color:#67E667; font-size:17px;">Ежедневник</a>
+<!--Ссылка на ЕЩЁ УВЛЕЧЕНИЯ-->
+<a href="" style="margin-left:3%; color:#AD66D5; font-size:17px;">Ещё увлечения</a>
+<!--Ссылка на ПОЖЕРТВОВАТЬ-Donation.html-->
+<a href="Donation.html" style="margin-left:3%; font-size:17px; color:#FFFF73;	">Пожертвовать</a>
+</td>
+</tr>
+</table>
+
+
 <!------------------------------------ОСНОВНОЙ КОНТЕНТ----------------------------------------------------------------->
 <!--В этой же ячейке контейнера создаём ещё одну таблицу
 для основного контента.
 Оформление как и в предыдущей таблице-->
-
-<table border="0" bgcolor="#D5C986" cellpadding="20"  style="width:100%; border-radius:30px; box-shadow: inset 0px 0px 50px 10px" >
+<table border="0" bgcolor="#D5C986" cellpadding="20" align="center" style="width:99%; border-radius:15px; box-shadow: inset 0px 0px 40px 10px" >
 <!--Создаём строку-->
 <tr>
 <!--Создаём ячейку-->
 <td rowspan="2" style="width:80%">
 <!--Заголовок-->
-<h2 font face="Arial" style="text-indent:10px; color:#5DD88; font-size:26px;" align="Left">Программирование</h2>
+<h2 font face="Arial" style="text-indent:25px; color:#5DD88; font-size:30px; align:left">Программирование</h2>
 <!--Цитата заголовка-->
 <p font face="Arial" style="text-indent:25px; color:#5DD88; font-size:16px;" align="right">
 <em>
@@ -53,79 +73,24 @@
 	И всё вы этом духе!"
 </em>
 </p>
-<hr style="color:#8BB6BC; height: 1px; background-color:#8BB6BC;">
+<hr style="color:#8BB6BC;">
 <!--Начинаем абзац с красной строки-->
 <p font face="Arial" style="text-indent:20px; color:#180940"  align="left">
 </p>
-<hr style="color:#91A0C3; height: 1px; background-color:#91A0C3;">
+<hr style="color:#91A0C3;">
 <!--Закрываем ячейку-->
 </td>
 
 
-<!-----------------------------------------------САЙДБАР--------------------------------------------------------------->
-<!--1. Создаём ячейку сайдбара-->
-<td bgcolor="#8BB6BC" style="border-radius:30px; align:left; width:25%; box-shadow: inset 0px 0px 20px 1px;">
-<p align="center">
-<!--Ссылка на ПОЖЕРТВОВАТЬ-Donation.html-->
-<a href="Donation.html" style="font-size:16px; color:#180940">ПОЖЕРТВОВАТЬ</a>
-</p>
-<hr style="color:#180940;">
-<p>
-<h3 style="color:#180940; font-size:20px;" align="center">МЕНЮ</h3>
-<!--Абзац для ссылок на страницы сайта-->
-<p>
-<!--Ссылка на ГЛАВНУЮ-index.html-->
-<!--Название страницы - отступ названия от маркера-->
-<a href="index.html" style="margin-left:5px; color:#2B1959; font-size:17px;">Главная</a>
-<!--Закрываем абзац-->
-</p>
-<p>
-<!--Ссылка на YouTube.com-->
-<a href="https://www.youtube.com/channel/UCo6OPt7xz15LfgF8HPUjh0Q/videos" target="_blank" style="margin-left:5px; color:#180940; font-size:17px;">YouTube Канал</a>
-</p>
-<p>
-<!--Ссылка на ПРОГРАММИРОВАНИЕ - Programming-->
-<a href="Programming.html" style="margin-left:5px; color:#180940; font-size:17px;">Программирование</a>
-</p>
-<p>
-<!--Ссылка на Ежедневник - Diary-->
-<a href="Diary.html" style="margin-left:5px; color:#180940; font-size:17px;">Ежедневник</a>
-</p>
-<p>
-<!--Ссылка на ЕЩЁ УВЛЕЧЕНИЯ-->
-<a href="" style="margin-left:5px; color:#180940; font-size:17px;">Ещё увлечения</a>
-</p>
-<!--Закрываем строку Меню-->
-</td>
-</tr>
-
-<!--2. Создаём строку с дополнительной информацией-->
-<!--<tr>-->
-<!--Ячейка с дополнительной информацией-->
-<!--<td bgcolor="#91A0C3" align="center" style="width:25%; border-radius:30px; box-shadow: inset 0px 0px 20px 1px">-->
-<!--<h3 style="color:#180940">ТУТ ТВОЯ РЕКЛАМА</h3>-->
-<!--<p style="color:#180940">Размещается заявка стационарно на 24 часа по выбору с 11:59:59 по МСК</p>-->
-<!--Закрываем ячейку с общей информацией-->
-<!--и таблицу основного контента-->
-<!--</tr>-->
-<!--</td>-->
-</table>
-
-
 <!---------------------------------------------ПОДВАЛ------------------------------------------------------------------->
 <!--Создаём таблицу подвала-->
-<table bgcolor="#4E4566" border="0" cellpadding="5" style="width:100%; border-radius:30px; box-shadow: inset  0px -5px 20px 1px; opacity: 0.9"  align="center">
+<table bgcolor="#4C5B86" border="0" cellpadding="5" style="width:100%; border-radius:15px; box-shadow: inset  0px -5px 20px 1px; opacity: 0.9"  align="center">
 <!--Создаём строку.-->
 <tr>
 <!--Создаём столбец-->
 <th>
-<h4 style="color:#180940" align="right">
-	<a href=><span style="color:#D5C986;font-size:14px;margin:10px">Тут информация о размещении рекламы на сайте</span></a><br>
-	<a href=><span style="color:#D5C986;font-size:14px;margin:90px">Дополнительная информация о сайте</span></a><br>
-	<a href=https://github.com/44mag44/><span style="color:#D5C986;font-size:14px;margin:135px"> Ссылки на мои работы - GitHub</span></a>
-</h4>	
 <!--Знак CopyRight-->
-<p style="align:left; color:#8BB6BC;">"CyberLife"  2019-2020 &#9400; </p>
+<p style="align:left; color:#C2F56E;">"CyberLife"  2019-2020 &#9400; </p>
 <!--Закрываем таблицу подвала. При желании в подвале можно
 сделать несколько строк и столбцов-->
 </th>
@@ -133,7 +98,22 @@
 </table>
 <!--Закрываем таблицу контейнера-->
 </td>
+<!--Конец окна интерфейса-->
 </body>
+
+
+<!----------------------------------------------РЕКЛАМА------------------------------------------------------------>
+<table style="width: 20%; height:100%" align="right">
+<!--2. Создаём строку с дополнительной информацией-->
+<tr style="height: 665px">
+<!--Ячейка с дополнительной информацией-->
+<td background="img/banner.png" align="center" style="border-radius:15px; box-shadow: inset 0px 0px 20px 1px">
+<h3 style="color:White; font-size: 25px">ТУТ МОЖЕТ БЫТЬ <br>ТВОЯ РЕКЛАМА</h3>
+<!--Закрываем ячейку с общей информацией-->
+<!--и таблицу основного контента-->
+</tr>
+</td>
+</table>
 
 
 <!--------------------------------------------------END----------------------------------------------------------------->
