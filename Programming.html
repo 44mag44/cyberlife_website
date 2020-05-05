@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" style="font-size:14px; font-family:Roboto, Arial, sans-serif; width:100%; height:100%">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" style="font-size:14px; font-family:Roboto, Arial, sans-serif; width:99%; height:100%">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8, charset=windows-1251"/>
 	<title>
@@ -20,7 +20,7 @@
 
 <!-----------------------------------------------ШАПКА САЙТА---------------------------------------------------------->
 <!--В ячейке строки создаём ещё одну таблицу для шапки сайта.-->
-<table border="0" background="img/spot-light-background_1284-4685.jpg" style="width:100%; border-radius:15px; box-shadow: inset 0px 0px 50px 1px; opacity: 0.9">
+<table border="0" background="img/spot-light-background_1284-4685.jpg" style="width:99%; border-radius:15px; box-shadow: inset 0px 0px 50px 1px; opacity: 0.9">
 <!--Создаём строку таблицы-->
 <tr>
 <!--Создаём столбец таблицы-->
@@ -73,25 +73,38 @@
 <!--Создаём строку-->
 <tr>
 <!--Создаём ячейку-->
-<td rowspan="2" style="width:80%">
+<td rowspan="2" style="width:99%">
 <!--Заголовок-->
-<h2 font face="Arial" style="text-indent:25px; color:#5DD88; font-size:30px; align:left">Программирование</h2>
+<h2 font face="Arial" style="text-indent:25px; color:#5DD88; font-size:30px; align:left">
+	Программирование
+</h2>
 <!--Цитата заголовка-->
 <p font face="Arial" style="text-indent:25px; color:#5DD88; font-size:16px;" align="right">
 	<em>
-		"Порграммирование - это преобразование мыслей в код <br>(П. С. Гусев)"
+		"Порграммирование - это преобразование мыслей в код.<br>
+		(П. С. Гусев)"
 	</em>
 </p>
 <hr style="color:#8BB6BC;">
 <!--Начинаем абзац с красной строки-->
-<p font face="Arial" style="text-indent:20px; color:#180940"  align="center">
-	<a href="https://www.youtube.com/watch?v=WW3crhT8j5o" style="margin-left:3%; font-size:17px; color:Green;">
-		Hello World! На 36 Языках - Часть 1 из 3<br>
+<p font face="Arial" style="color:#180940"  align="center">
+	<a href="https://www.youtube.com/watch?v=WW3crhT8j5o" style="font-size:17px; color:Green;">
+		Hello World! На 36 Языках - Часть 1 из 3
 	</a>
 </p>
-<p align="center">
+<!--
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/WW3crhT8j5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 	</iframe>
+-->
+<p align="center">
+	<video src="video/LangProg-PART_I.mp4" controls width="30%" height="30%">
+		<source src="video.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+		<source src="video.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+		<source src="video.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+			<object data="video.swf" type="application/x-shockwave-flash"><!--браузеры в которых нет поддержки элемента video -->
+				<param name="movie" value="video.swf">
+			</object>
+	</video>
 </p>
 <hr style="color:#91A0C3;">
 <!--Закрываем ячейку-->
